@@ -1,13 +1,3 @@
-	function menuSelect(){
-		var tendina = $('#attuale').find('select');
-		tendina.val('');//resetto
-		tendina.change(function(){
-			var selezionato = $(this).val();
-			if (selezionato!='') {
-				location.href=selezionato;
-			}
-		});
-	}
 
 	function gestisciCiclo(){
 		voce_menu = $('#menu li');
